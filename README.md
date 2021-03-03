@@ -26,13 +26,13 @@ Environment used:
 
 ![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/001%20Register.png)
 
-* Global exception to handle invalidation [ExceptionHandler with ``@ControllerAdvice``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/exception)
+* Global custom exception to handle invalidation [ExceptionHandler ``@ControllerAdvice``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/exception)
 
-Mail has already been registered
+** Mail has already been registered
 
 ![image](https://github.com/namphuong2217/Social-Blogging-Platform/blob/main/documentation/001%20Not%20unique%20mail.png)
 
-Username is empty
+** Username is empty
 
 ![image](https://github.com/namphuong2217/Social-Blogging-Platform/blob/main/documentation/001%20Register%20Request%20name%20empty.png)
 
