@@ -16,22 +16,61 @@ Environment used:
 * Maven 3.7
 * IntelliJ IDEA
 
-## Demo API endpoints
+## Testing API - Demo Client with [Insomnia](https://insomnia.rest/)
 
 * API Request Collection
 
-![image](https://github.com/namphuong2217/Projekt-Seminar-Microservices/blob/main/Documentation/01%20Testing%20Services%20Collection.png)
+![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/000%20API%20Collection.png)
 
-* UserService GET Request via localhost:9191 ([GatewayService](https://github.com/namphuong2217/Projekt-Seminar-Microservices/tree/main/gateway-service)): return a service instance ID ([UserService](https://github.com/namphuong2217/Projekt-Seminar-Microservices/tree/main/user-service))
+* Register a new user
 
-![image](https://github.com/namphuong2217/Projekt-Seminar-Microservices/blob/main/Documentation/01%20GET%20User%20ServiceId.png)
+![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/001%20Register.png)
 
-* GET a user with id as parameter ([UserService](https://github.com/namphuong2217/Projekt-Seminar-Microservices/tree/main/user-service))
+* Login of existing user 
 
-![image](https://github.com/namphuong2217/Projekt-Seminar-Microservices/blob/main/Documentation/02%20GET%20User%20Gateway.png)
+![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/002%20Login.png)
 
-*  GET a user with id as parameter exception ([UserService](https://github.com/namphuong2217/Projekt-Seminar-Microservices/tree/main/user-service))
+* Create new community to group/categorize posts
 
+![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/003%20Create%20Community.png)
+
+* Query a community
+
+![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/003%20Query%20A%20Community.png)
+
+* Query all communities
+
+![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/004%20Query%20All%20Communities.png)
+
+* Create new post by current user
+
+![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/004%20Create%20a%20post.png)
+
+* Query all posts
+
+![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/006%20Query%20All%20Posts.png)
+
+* Create new comment by current user on specified post
+
+![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/007%20Create%20A%20Comment.png)
+
+* Query all comments by given username
+
+![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/007%20Query%20Comment%20by%20Username.png)
+
+* Downvote or Upvote a post
+
+![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/008%20Vote%20A%20Post.png)
+
+![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/008%20Vote%20A%20Post%20Query%20Post.png)
+
+* Refresh Token
+
+![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/009%20Refresh%20TOken.png)
+
+* Logout and delete Refresh Token
+
+![image](https://github.com/namphuong2217/Social-Blogging/blob/main/documentation/009%20Logout%20RefreshToken%20deleted.png)
 
 ## Modules, libraries and features
 
