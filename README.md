@@ -78,10 +78,11 @@ Environment used:
 Bootstrap initial application
 
 #### Spring Security
-Implementation of register new user, authentication/ authorization/login/logout with JSON Web Token and Spring Security, security of API Endpoints.
+* Security of API Endpoints. Implementation of authentication/ authorization/login/logout with JSON Web Token and Spring Security, 
+* Adding new user,
 
-#### Spring Data JPA with MySQL
-Data access, communication between application and externe database
+#### Spring Data JPA with Postgresql
+Persistence to Postgresql database using JPA. More control with data.sql and schema.sql
 
 #### Spring MVC
 Dispatch requests to responsible handlers
@@ -92,29 +93,27 @@ Data persistence and management of entities and tables for application and datab
 #### CRUD 
 Implement CREATE, READ, UPDATE, DELETE operations for RESTful services.
 
-#### Mailtrap 
-Fake [SMTP server](https://mailtrap.io/) for managing sending/receiving mail for registration
+#### JSON Web Token 
+Authenticate users
 
 #### Lombok
 Manage boiler-plate code in Java
 
-#### MapStruct
+#### MapStruct (unfinished)
 Mapping entities to data transfer objects (DTO)
 
-#### Java Mail Sender
+#### Mailtrap (unfinished)
+Fake [SMTP server](https://mailtrap.io/) for managing sending/receiving mail for registration
+
+#### Java Mail Sender (unfinished)
 Send mail from our application
 
-#### JSON Web Token 
-Authenticate users
-
-#### Swagger
+#### Swagger (unfinished)
 Build API documentation
 
 ## Running the project
 
-Frontend pending. Refer to API documentation for further insight.
-
-
+[Refer to API documentation for further insight. ](https://backend-reddit-heroku.herokuapp.com/swagger-ui.html).
 
 ## API Endpoints Overview
 
