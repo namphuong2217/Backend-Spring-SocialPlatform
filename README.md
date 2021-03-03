@@ -1,4 +1,4 @@
-# Social-Blogging
+# Social-Blogging-Platform
 
 A backend REST services for a social blogging platform. Project built with Spring Framework from scratch.
 
