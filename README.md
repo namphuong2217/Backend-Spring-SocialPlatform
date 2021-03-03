@@ -2,10 +2,6 @@
 
 A backend REST services for a social blogging platform. Project built with Spring Framework from scratch.
 
-The application is deployed to [Heroku](https://dashboard.heroku.com/).
-
-You can access the API documentation [here](https://backend-reddit-heroku.herokuapp.com/swagger-ui.html). 
-
 ## Overview
 
 This project was built with [Spring Boot](https://spring.io/projects/spring-boot).
