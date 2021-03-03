@@ -119,7 +119,7 @@ Build API documentation
 
 ## Running the project
 
-[Refer to API documentation for further insight. ](https://backend-reddit-heroku.herokuapp.com/swagger-ui.html).
+[API documentation](https://backend-reddit-heroku.herokuapp.com/swagger-ui.html)
 
 ## API Endpoints Overview
 
