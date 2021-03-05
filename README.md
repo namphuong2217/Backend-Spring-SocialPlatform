@@ -1,4 +1,4 @@
-![images](https://github.com/gothinkster/spring-boot-realworld-example-app/blob/master/example-logo.png)
+![images](https://github.com/namphuong2217/Social-Blogging-Platform/blob/main/documentation/realworld_logo.png)
 
 # Backend Java Spring Social Blogging Platform 
 
