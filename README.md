@@ -121,7 +121,15 @@ Build API documentation
 
 [API documentation](https://backend-reddit-heroku.herokuapp.com/swagger-ui.html)
 
-## API Endpoints Overview
+## Some Demos
+
+#### Postgresql database
+
+![SQL](https://github.com/namphuong2217/Social-Blogging-Platform/blob/main/documentation/011%20SQL%20Pgadmin%201.png)
+
+![SQL](https://github.com/namphuong2217/Social-Blogging-Platform/blob/main/documentation/011%20SQL%20Pgadmin.png)
+
+#### API Endpoints Overview
 
 * Controller layer
 
