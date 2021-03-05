@@ -1,3 +1,5 @@
+[!images](https://github.com/gothinkster/spring-boot-realworld-example-app/blob/master/example-logo.png)
+
 # Backend Java Spring Social Blogging Platform 
 
 A backend REST services for a social blogging platform.
