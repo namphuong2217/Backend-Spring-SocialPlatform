@@ -2,7 +2,7 @@
 
 A backend REST services for a social blogging platform.
 
-This codebase was created to demonstrate a fully fledged fullstack application built with Spring boot + JPA including CRUD operations, authentication.
+This codebase was created to demonstrate a fully fledged fullstack application built with Spring boot + JPA including CRUD operations, authentication and more.
 
 For more information on how this works see below.
 
