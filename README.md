@@ -156,6 +156,8 @@ Send mail from the application
 #### Swagger (unfinished)
 Build API documentation
 
+#### OAuth2 (unfinished)
+
 ## Running the project
 
 [API documentation](https://backend-reddit-heroku.herokuapp.com/swagger-ui.html)(deprecated)
