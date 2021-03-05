@@ -130,7 +130,7 @@ Persistence to Postgresql database using JPA. More control with data.sql and sch
 #### Spring MVC
 Dispatch requests to responsible handlers
 
-#### Hibernate
+#### JPA/Hibernate
 Data persistence and management of entities and tables for application and database
 
 #### CRUD 
