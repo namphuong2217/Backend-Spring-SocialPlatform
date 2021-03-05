@@ -123,13 +123,11 @@ Build API documentation
 
 ## Some Demos
 
-#### Postgresql database
+* Postgresql database
 
 ![SQL](https://github.com/namphuong2217/Social-Blogging-Platform/blob/main/documentation/011%20SQL%20Pgadmin%201.png)
 
 ![SQL](https://github.com/namphuong2217/Social-Blogging-Platform/blob/main/documentation/011%20SQL%20Pgadmin.png)
-
-#### API Endpoints Overview
 
 * Data transfer objects
 
