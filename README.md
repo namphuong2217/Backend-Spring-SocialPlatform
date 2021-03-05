@@ -1,8 +1,8 @@
 # Backend Java Spring Social Blogging Platform 
 
-A backend REST services for a social blogging platform. .
+A backend REST services for a social blogging platform.
 
-This codebase was created to demonstrate a fully fledged fullstack application built with Spring boot + JPA including CRUD operations, authentication, and more.
+This codebase was created to demonstrate a fully fledged fullstack application built with Spring boot + JPA including CRUD operations, authentication.
 
 For more information on how this works see below.
 
@@ -18,7 +18,7 @@ Environment used:
 
 ## How it works
 
-The application uses Spring boot (Web, JPA, Postgresql).
+The application uses Spring boot (Web, JPA, Postgresql)
 
 * Use the idea of Three-Layer Architecture Design to separate the business term and infrastruture term
 
@@ -156,7 +156,7 @@ Build API documentation
 
 ## Running the project
 
-[API documentation](https://backend-reddit-heroku.herokuapp.com/swagger-ui.html)
+[API documentation](https://backend-reddit-heroku.herokuapp.com/swagger-ui.html)(deprecated)
 
 ## Some Demos
 
