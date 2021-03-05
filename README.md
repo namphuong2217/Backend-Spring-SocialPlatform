@@ -33,7 +33,7 @@ Code organized as follows:
 1. [``Controller Layer``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/controller) responsible handlers for coming requests from client
 2. [``Service Layer``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/service) is the business/logic layers
 3. [``Repository Layer``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/repository) is the Persistence/Data Access Layer
-4. [``model``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/model), [``dto``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/dto) is the business model including entities and DTOs
+4. [``model``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/model), [``dto``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/dto) are the business models including entities and DTOs
 
 6. [``exception``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/exception) is global custom exception to handle input invalidation, other exceptions and default exception handling.
 
