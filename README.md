@@ -85,7 +85,7 @@ Bootstrap initial application
 
 #### Spring Security
 * Security of API Endpoints. Implementation of authentication/ authorization/login/logout with JSON Web Token and Spring Security, 
-* Adding new user,
+* Adding new user
 
 #### Spring Data JPA with Postgresql
 Persistence to Postgresql database using JPA. More control with data.sql and schema.sql
@@ -112,7 +112,7 @@ Mapping entities to data transfer objects (DTO)
 Fake [SMTP server](https://mailtrap.io/) for managing sending/receiving mail for registration
 
 #### Java Mail Sender (unfinished)
-Send mail from our application
+Send mail from the application
 
 #### Swagger (unfinished)
 Build API documentation
@@ -130,10 +130,6 @@ Build API documentation
 ![SQL](https://github.com/namphuong2217/Social-Blogging-Platform/blob/main/documentation/011%20SQL%20Pgadmin.png)
 
 #### API Endpoints Overview
-
-* Controller layer
-
-![Controllers](https://github.com/namphuong2217/Backend-JavaSpring-Reddit/blob/main/src/main/resources/images/Screenshot%20from%202020-11-13%2009-51-04.png)
 
 * Data transfer objects
 
