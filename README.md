@@ -2,6 +2,10 @@
 
 A backend REST services for a social blogging platform. Project built with Spring Framework from scratch.
 
+This codebase was created to demonstrate a fully fledged fullstack application built with Spring boot + JPA including CRUD operations, authentication, and more.
+
+For more information on how this works see below.
+
 ## Overview
 
 This project was built with [Spring Boot](https://spring.io/projects/spring-boot).
@@ -9,8 +13,30 @@ This project was built with [Spring Boot](https://spring.io/projects/spring-boot
 Environment used:
 
 * Java 11
-* Maven 3.7
+* Maven 3.6 +
 * IntelliJ IDEA
+
+## How it works
+
+The application uses Spring boot (Web, JPA, Postgresql).
+
+* Use the idea of Three-Layer Architecture Design to separate the business term and infrastruture term
+
+The application is built in 3 layer architecture: [``Controller Layer``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/controller), [Service Layer](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/service), [Repository Layer](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/repository)
+
+* Use JPA to implement the Data Mapper pattern for persistence to database.
+
+* Use Data Transfer Object to separate the read model data and write model data.
+
+And the code organize as this:
+
+1. [``Controller Layer``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/controller) is the layer handles coming requests
+2. [``Service Layer``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/service) is the business layers
+3. [``Repository Layer``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/repository) is the Persistence/ Data Access Layer
+4. [``model``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/model), [``dto``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/dto) is the business model including entities and DTO
+5. [``security``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/security), [``config``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/config) handle security of API Endpoints
+6. [``exception``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/exception) is global custom exception to handle input invalidation 
+
 
 ## Testing API - Demo Client with [Insomnia](https://insomnia.rest/)
 
