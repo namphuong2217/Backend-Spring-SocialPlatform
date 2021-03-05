@@ -1,6 +1,6 @@
 # Backend Java Spring Social Blogging Platform 
 
-A backend REST services for a social blogging platform. Project built with Spring Framework from scratch.
+A backend REST services for a social blogging platform. .
 
 This codebase was created to demonstrate a fully fledged fullstack application built with Spring boot + JPA including CRUD operations, authentication, and more.
 
@@ -8,7 +8,7 @@ For more information on how this works see below.
 
 ## Overview
 
-This project was built with [Spring Boot](https://spring.io/projects/spring-boot).
+Project built with [Spring Boot](https://spring.io/projects/spring-boot) from scratch.
 
 Environment used:
 
