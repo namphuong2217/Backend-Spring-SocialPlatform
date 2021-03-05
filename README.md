@@ -18,7 +18,7 @@ Environment used:
 
 ## How it works
 
-The application uses Spring boot (Web, JPA, Postgresql)
+The application uses Spring boot (Web, JPA, Postgresql, Lombok)
 
 * Use the idea of Three-Layer Architecture Design to separate the business term and infrastruture term
 
