@@ -1,16 +1,55 @@
+![images](https://github.com/gothinkster/spring-boot-realworld-example-app/blob/master/example-logo.png)
+
 # Backend Java Spring Social Blogging Platform 
 
-A backend REST services for a social blogging platform. Project built with Spring Framework from scratch.
+A backend REST services for a social blogging platform.
+
+This codebase was created to demonstrate a fully fledged fullstack application built with Spring boot + JPA including CRUD operations, authentication and more.
+
+For more information on how this works see below.
 
 ## Overview
 
-This project was built with [Spring Boot](https://spring.io/projects/spring-boot).
+Project built with [Spring Boot](https://spring.io/projects/spring-boot) from scratch.
 
 Environment used:
 
 * Java 11
-* Maven 3.7
+* Maven 3.6 +
 * IntelliJ IDEA
+
+## How it works
+
+The application uses Spring boot (Web, JPA, Postgresql, Lombok)
+
+* Use the idea of Three-Layer Architecture Design to separate the business term and infrastruture term
+
+The application is built in 3 layer architecture: [Controller Layer](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/controller), [Service Layer](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/service), [Repository Layer](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/repository)
+
+* Use JPA to implement the Data Mapper pattern for persistence to database.
+
+* Use Data Transfer Object to separate the read model data and write model data.
+
+Code organized as follows:
+
+1. [``Controller Layer``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/controller) responsible handlers for coming requests from client
+2. [``Service Layer``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/service) is the business/logic layers
+3. [``Repository Layer``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/repository) is the Persistence/Data Access Layer
+4. [``model``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/model), [``dto``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/dto) are the business models including entities and DTOs
+
+6. [``exception``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/exception) is global custom exception to handle input invalidation, other exceptions and default exception handling.
+
+## Security
+
+Integration with Spring Security and add other filter for JWT token process.
+
+The secret key is stored in application.properties.
+
+[``security``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/security), [``config``](https://github.com/namphuong2217/Social-Blogging-Platform/tree/main/src/main/java/com/personalproject/socialbloggingplatform/config) handle security of API Endpoints
+
+## Database
+
+Use Postgresql database, can be changed easily in the ``application.properties`` for any other database.
 
 ## Testing API - Demo Client with [Insomnia](https://insomnia.rest/)
 
@@ -85,7 +124,7 @@ Bootstrap initial application
 
 #### Spring Security
 * Security of API Endpoints. Implementation of authentication/ authorization/login/logout with JSON Web Token and Spring Security, 
-* Adding new user,
+* Adding new user
 
 #### Spring Data JPA with Postgresql
 Persistence to Postgresql database using JPA. More control with data.sql and schema.sql
@@ -93,7 +132,7 @@ Persistence to Postgresql database using JPA. More control with data.sql and sch
 #### Spring MVC
 Dispatch requests to responsible handlers
 
-#### Hibernate
+#### JPA/Hibernate
 Data persistence and management of entities and tables for application and database
 
 #### CRUD 
@@ -112,20 +151,22 @@ Mapping entities to data transfer objects (DTO)
 Fake [SMTP server](https://mailtrap.io/) for managing sending/receiving mail for registration
 
 #### Java Mail Sender (unfinished)
-Send mail from our application
+Send mail from the application
 
 #### Swagger (unfinished)
 Build API documentation
 
 ## Running the project
 
-[API documentation](https://backend-reddit-heroku.herokuapp.com/swagger-ui.html)
+[API documentation](https://backend-reddit-heroku.herokuapp.com/swagger-ui.html)(deprecated)
 
-## API Endpoints Overview
+## Some Demos
 
-* Controller layer
+* Postgresql database
 
-![Controllers](https://github.com/namphuong2217/Backend-JavaSpring-Reddit/blob/main/src/main/resources/images/Screenshot%20from%202020-11-13%2009-51-04.png)
+![SQL](https://github.com/namphuong2217/Social-Blogging-Platform/blob/main/documentation/011%20SQL%20Pgadmin%201.png)
+
+![SQL](https://github.com/namphuong2217/Social-Blogging-Platform/blob/main/documentation/011%20SQL%20Pgadmin.png)
 
 * Data transfer objects
 
