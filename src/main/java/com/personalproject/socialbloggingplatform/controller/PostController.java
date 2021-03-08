@@ -15,7 +15,7 @@ import java.util.List;
 //        /api/posts	POST	createPost
 //        /api/posts/	GET	getAllPosts
 //        /api/posts/{id}	GET	getPost
-//        /api/posts/by-subreddit/{id}	GET	getPostsBySubreddit
+//        /api/posts/by-community/{id}	GET	getPostsByCommunity
 //        /api/posts/by-user/{name}	GET	getPostsByUsername
 
 @RestController
