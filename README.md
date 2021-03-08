@@ -49,7 +49,7 @@ The secret key is stored in application.properties.
 
 ## Database
 
-Use Postgresql database, can be changed easily in the ``application.properties`` for any other database.
+Use Postgresql database, can be changed easily in the [``application.properties``](https://github.com/namphuong2217/Social-Blogging-Platform/blob/main/src/main/resources/application.properties) for any other database.
 
 ## Testing API - Demo Client with [Insomnia](https://insomnia.rest/)
 
@@ -127,7 +127,7 @@ Bootstrap initial application
 * Adding new user
 
 #### Spring Data JPA with Postgresql
-Persistence to Postgresql database using JPA. More control with data.sql and schema.sql
+Persistence to Postgresql database using JPA. More control with [data.sql](https://github.com/namphuong2217/Social-Blogging-Platform/blob/main/src/main/resources/data.sql) and [schema.sql](https://github.com/namphuong2217/Social-Blogging-Platform/blob/main/src/main/resources/schema.sql)
 
 #### Spring MVC
 Dispatch requests to responsible handlers
