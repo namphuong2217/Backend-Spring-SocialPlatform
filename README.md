@@ -170,9 +170,6 @@ Build API documentation
 
 ![SQL](https://github.com/namphuong2217/Social-Blogging-Platform/blob/main/documentation/011%20SQL%20Pgadmin.png)
 
-* Data transfer objects
-
-![DTO](https://github.com/namphuong2217/Backend-JavaSpring-Reddit/blob/main/src/main/resources/images/Screenshot%20from%202020-11-13%2009-51-13.png)
 
 * API Endpoints
 
